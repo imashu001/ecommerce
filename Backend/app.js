@@ -3,9 +3,8 @@ const logger = require('morgan');
 const path = require('path');
 const app = express()
 const mongoose = require('mongoose')
-// const db = require("./config/mongoose");
+const db = require('./config/mongoose');
 const port = 3000;
-require('dotenv').config()
 app.use(express.json());
 // const adminRoutes = require('./routes/adminRoutes');
 // const userRoutes = require('./routes/userROutes')
